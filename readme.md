@@ -15,6 +15,7 @@ todomvc
 |----layout
 |----services
 |----todo
+|--index.html
 ```
 
 1. Crear el archivo package.json en la raíz de la aplicación y ejecutar npm install.
