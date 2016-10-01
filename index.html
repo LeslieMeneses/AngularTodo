@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" data-framework="angularjs">
+
+<head>
+    <meta charset="utf-8">
+    <title>AngularJS • TodoMVC</title>
+    <link rel="stylesheet" href="node_modules/todomvc-common/base.css">
+    <link rel="stylesheet" href="node_modules/todomvc-app-css/index.css">
+    <style>
+        [ng-cloak] {
+            display: none;
+        }
+    </style>
+</head>
+
+<body ng-app="todomvc">
+    <ng-view />
+
+    <script src="node_modules/todomvc-common/base.js"></script>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-route/angular-route.js"></script>
+    <script src="node_modules/angular-resource/angular-resource.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/todo/todo.controller.js"></script>
+    <script src="app/services/storage.service.js"></script>
+    <script src="app/services/api.service.js"></script>
+    <script src="app/services/localstorage.service.js"></script>
+    <script src="app/directives/focus.directive.js"></script>
+    <script src="app/directives/escape.directive.js"></script>
+</body>
+
+</html>
